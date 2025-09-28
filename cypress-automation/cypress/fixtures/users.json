@@ -1,0 +1,17 @@
+{
+  "admin": {
+    "email": "admin@test.com",
+    "password": "admin123",
+    "type": "admin"
+  },
+  "regular": {
+    "email": "user@test.com",
+    "password": "user123",
+    "type": "user"
+  },
+  "invalid": {
+    "email": "invalid@test.com",
+    "password": "wrongpass",
+    "type": "invalid"
+  }
+}

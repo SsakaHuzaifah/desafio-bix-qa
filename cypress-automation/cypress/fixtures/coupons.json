@@ -1,0 +1,32 @@
+{
+  "valid": [
+    {
+      "code": "WELCOME10",
+      "discount": 10,
+      "type": "percentage",
+      "description": "10% discount"
+    },
+    {
+      "code": "SAVE20", 
+      "discount": 20,
+      "type": "percentage",
+      "description": "20% discount"
+    },
+    {
+      "code": "FIXED50",
+      "discount": 50,
+      "type": "fixed",
+      "description": "R$ 50.00 fixed discount"
+    }
+  ],
+  "invalid": [
+    {
+      "code": "EXPIRED",
+      "description": "Expired coupon"
+    },
+    {
+      "code": "INVALID123",
+      "description": "Non-existent coupon"
+    }
+  ]
+}

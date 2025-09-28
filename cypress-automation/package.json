@@ -1,0 +1,28 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "BIX E-commerce Test Automation",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
+    "test:api": "cypress run --spec 'cypress/e2e/api/**/*'",
+    "test:e2e": "cypress run --spec 'cypress/e2e/ui/**/*'",
+    "test:security": "cypress run --spec 'cypress/e2e/security/**/*'",
+    "test:all": "cypress run",
+    "test:headed": "cypress run --headed",
+    "restock": "cd ../app-under-test && docker compose down -v && docker compose up -d --build"
+  },
+  "keywords": ["cypress", "testing", "e2e", "automation"],
+  "author": "Tiago Cupertino Moraes",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cypress/grep": "^5.0.0",
+    "cypress": "^15.3.0",
+    "cypress-axe": "^1.7.0",
+    "cypress-mochawesome-reporter": "^4.0.2"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "available": [
+    {
+      "name": "Keyboard",
+      "price": 199.90,
+      "stock": 15
+    },
+    {
+      "name": "Mouse", 
+      "price": 99.50,
+      "stock": 25
+    },
+    {
+      "name": "Headset",
+      "price": 299.00,
+      "stock": 8
+    }
+  ]
+}
