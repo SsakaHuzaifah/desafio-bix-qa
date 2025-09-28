@@ -71,13 +71,14 @@ cypress/
 
 ## Technical Setup
 
-**Framework:** Cypress (provided in challenge requirements)
-**Reporting:** Mochawesome HTML reports with test videos
-**CI/CD:** GitHub Actions for multi-browser testing
-**Test Data:** Fixture-based approach for consistent test execution
+**Framework:** Cypress (provided in challenge requirements).  
+**Reporting:** Mochawesome HTML reports with test videos.  
+**CI/CD:** GitHub Actions for multi-browser testing.  
+**Test Data:** Fixture-based approach for consistent test execution.  
+
 
 ## Automation Approach
 
-**Test Organization:** Separated API and UI tests for clear coverage areas
-**Custom Commands:** Created reusable login and cart operations
-**Data Management:** Used fixtures for users, products, and coupon test data
+**Test Organization:** Separated API and UI tests for clear coverage areas.  
+**Custom Commands:** Created reusable login and cart operations.  
+**Data Management:** Used fixtures for users, products, and coupon test data.  
