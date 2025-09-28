@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BIX Mini E-commerce</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>BIX Mini E-commerce</h1>
+      <div id="user-section">
+        <div id="login-form" class="login-form">
+          <input type="email" id="email" placeholder="Email" />
+          <input type="password" id="password" placeholder="Senha" />
+          <button id="login-btn">Entrar</button>
+        </div>
+        <div id="user-info" class="user-info" style="display: none">
+          <span id="user-name"></span>
+          <button id="logout-btn">Sair</button>
+        </div>
+      </div>
+      <div id="cart">
+        Carrinho: <span id="cart-count">0</span> itens – Total: R$
+        <span id="cart-total">0,00</span>
+      </div>
+    </header>
+    <main>
+      <section>
+        <h2>Produtos</h2>
+        <ul id="product-list"></ul>
+      </section>
+      <section id="checkout-section">
+        <h3>Finalizar Compra</h3>
+        <div class="coupon-section">
+          <input type="text" id="coupon-code" placeholder="Código do cupom" />
+          <button id="apply-coupon-btn">Aplicar Cupom</button>
+          <span id="coupon-message"></span>
+        </div>
+        <div id="order-summary">
+          <div>Subtotal: R$ <span id="subtotal">0,00</span></div>
+          <div id="discount-line" style="display: none">
+            Desconto: R$ <span id="discount">0,00</span>
+          </div>
+          <div>Total: R$ <span id="final-total">0,00</span></div>
+        </div>
+        <button id="checkout-btn">Finalizar Compra</button>
+        <pre id="result"></pre>
+      </section>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
