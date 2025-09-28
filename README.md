@@ -1,10 +1,18 @@
-# BIX Mini E-commerce - QA Automation Solution
+# BIX Mini E-commerce - QA Automation
 
-Comprehensive test automation implementation covering all application functionality through API and UI testing strategies.
+## Test Results
+
+- **[Complete Test Report](./final-test-report.html)**
+- **[GitHub Actions](https://github.com/tiagocupertino/desafio-bix-qa/actions/runs/18069486907)**
+
+### Multi-Browser Testing (Cypress Cloud)
+- **[Chrome](https://cloud.cypress.io/projects/rxvowx/runs/16)**
+- **[Firefox](https://cloud.cypress.io/projects/rxvowx/runs/15)**  
+- **[Edge](https://cloud.cypress.io/projects/rxvowx/runs/17)**
 
 ## Test Coverage Summary
 
-**51 automated tests** providing complete coverage of:
+**52 automated tests** providing complete coverage of:
 - Authentication flows and session management
 - Product catalog and inventory operations  
 - Shopping cart functionality with stock validation
