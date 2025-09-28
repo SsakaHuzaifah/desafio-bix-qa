@@ -3,7 +3,7 @@
 ## Test Results
 
 - **[Complete Test Report](https://tiagocupertino.github.io/desafio-bix-qa/final-test-report.html)**
-- **[GitHub Actions](https://github.com/tiagocupertino/desafio-bix-qa/actions)**
+- **[GitHub Actions](https://github.com/tiagocupertino/desafio-bix-qa/actions/runs/18069486907)**
 
 ### Multi-Browser Testing (Cypress Cloud)
 - **[Chrome](https://cloud.cypress.io/projects/rxvowx/runs/16)**
