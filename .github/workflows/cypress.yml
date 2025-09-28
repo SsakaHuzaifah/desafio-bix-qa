@@ -1,0 +1,34 @@
+name: Cypress Tests
+on: [push]
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        browser: [chrome, firefox, edge]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Start application
+        run: |
+          cd app-under-test
+          docker compose up -d --build
+          
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
+        with:
+          working-directory: cypress-automation
+          browser: ${{ matrix.browser }}
+          wait-on: 'http://localhost:3001'
+          wait-on-timeout: 300
+          record: true
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Stop application
+        run: |
+          cd app-under-test
+          docker compose down
+        if: always()
