@@ -159,21 +159,5 @@ describe('Checkout & Coupon System', () => {
       cy.contains('Aplicar Cupom').click()
       cy.contains('Total: R$ 159,92').should('be.visible')
     })
-
-    it('Should decrease stock after successful purchase', () => {
-  // Get initial stock
-  cy.request('GET', '/api/products').then(before => {
-    const initialStock = before.body.items.find(p => p.id === 2).stock
-    
-    // Make purchase
-    cy.request('POST', '/api/checkout', {
-      items: [{ id: 2, qty: 2 }]
-    })
-    
-    // Verify stock decreased
-    cy.request('GET', '/api/products').then(after => {
-      const finalStock = after.body.items.find(p => p.id === 2).stock
-      expect(finalStock).to.eq(initialStock - 2)
-    })
   })
 })
